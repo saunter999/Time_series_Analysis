@@ -1,0 +1,6 @@
+co2.lm=lm(co2~time(co2))#
+plot(co2)#
+abline(co2.lm)#
+co2.residuals=resid(co2.lm)
+taste
+library(faraway)
